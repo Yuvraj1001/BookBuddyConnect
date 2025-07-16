@@ -1,0 +1,43 @@
+Yuvraj
+Linkedin: linkedin.com/Yuvraj	Email: yuvrajbgs5@gmail.com Github:	github.com/Yuvraj1001		Mobile: +91-8092854098
+
+SKILLS
+•	Languages:	Python, R, C++
+•	Data Analysis and Visualization:  Microsoft Excel, Tableau, R Studio
+•	Frameworks:	HTML and CSS
+•	Tools/Platforms:	MySQL, Git/GitHub
+•	Soft Skills:	Problem-Solving Skills, Team Player, Project Management, Adaptability
+
+PROJECTS
+•	Advance Text Summarization Using RNNs & Transformers	November 2024 Designed and implemented a hybrid text summarization model combining Recurrent Neural Networks.
+Applied few-shot and chain-of-thought prompting strategies to enhance coherence, reduce hallucinations, and improve human-likeness.
+Tech: Python TensorFlow, Hugging Face Transformers and PromptLayer
+•	Dashboard-Road Accident Analysis	May 2023
+Conducted a comprehensive analysis of dataset of over 10,000 road accident records using Excel. Used pivot tables, slicers, and timelines to create an interactive dashboard for visualizing trends and patterns in accident data.
+Achieved accuracy of 92% in identifying high-risk zones through data correlation. Implemented macros to automate repetitive tasks and enhance user experience. Tech: Microsoft Excel, Tableau and Predictive Analytics
+•	Advanced Scientific Calculator	May 2023
+Designed the application to support complex operations including trigonometric, logarithmic, and exponential functions.
+Enhanced user interaction by implementing a simple and intuitive command-line interface. Optimized performance for real-time computation with high accuracy.
+Tech: Python, NumPy and Math Library
+
+CERTIFICATES
+•	Complete Interview Preparation - Self-Paced (C++) | GFG.	June 2024-Sep. 2024
+•	Excel Skills for Data Analytics and Visualization | Coursera	March 2024-May 2024
+•	Mastering Data Structure and Algorithms using C++ | Udemy	Sep. 2023-Dec. 2023
+•	Programming in C++: A Hands On Introduction | Coursera	July 2023-Oct. 2023
+
+ACHIEVEMENTS
+•	Significant Contribution in Open-Source:	October 2024
+Successfully completed the Hacktoberfest Challenge 2024.
+•	Secured 2nd rank in GeeksforGeeks Contest:	September 2024
+Among 4k+ participants completed interview course successfully.
+•	Strong Academic Foundation:	May 2020
+Honored as a three-time Gold Medalist in the international Maths Olympiad.
+
+EDUCATION
+Lovely Professional University	Punjab, India
+•	Bachelor of Technology - Computer Science and Engineering; CGPA: 7.00	Since August 2022
+RCS College	Begusarai, Bihar
+•	Intermediate; Percentage: 81%	April 2020 - March 2022
+St. Joseph Public School	Begusarai, Bihar
+•	Matriculation; Percentage: 73.8%	April 2019 - March 2020
