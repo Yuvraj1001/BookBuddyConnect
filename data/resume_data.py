@@ -13,7 +13,8 @@ resume_data = {
         "programming_languages": [
             {"name": "Python", "level": 90, "icon": "fab fa-python"},
             {"name": "R", "level": 85, "icon": "fab fa-r-project"},
-            {"name": "C++", "level": 80, "icon": "fas fa-code"}
+            {"name": "C++", "level": 80, "icon": "fas fa-code"},
+            {"name": "Java", "level": 75, "icon": "fab fa-java"}
         ],
         "data_analysis": [
             {"name": "Microsoft Excel", "level": 95, "icon": "fas fa-file-excel"},
@@ -26,6 +27,7 @@ resume_data = {
         ],
         "tools_platforms": [
             {"name": "MySQL", "level": 75, "icon": "fas fa-database"},
+            {"name": "MongoDB", "level": 70, "icon": "fas fa-leaf"},
             {"name": "Git/GitHub", "level": 85, "icon": "fab fa-git-alt"}
         ],
         "soft_skills": [
@@ -38,16 +40,16 @@ resume_data = {
     
     "projects": [
         {
-            "title": "Advance Text Summarization Using RNNs & Transformers",
+            "title": "Knitwear - Sales Forecasting and Customer Analysis",
             "date": "November 2024",
-            "description": "Designed and implemented a hybrid text summarization model combining Recurrent Neural Networks. Applied few-shot and chain-of-thought prompting strategies to enhance coherence, reduce hallucinations, and improve human-likeness.",
-            "technologies": ["Python", "TensorFlow", "Hugging Face Transformers", "PromptLayer"],
+            "description": "Analyzed over 15,000 sales records to forecast future demand and understand customer purchasing behavior. Fully interactive Tableau dashboard with real-time sales insights.",
+            "technologies": ["MS Excel", "Tableau", "Predictive Analytics"],
             "github": "https://github.com/Yuvraj1001",
             "features": [
-                "Hybrid RNN and Transformer architecture",
-                "Few-shot prompting implementation",
-                "Chain-of-thought reasoning",
-                "Reduced hallucination techniques"
+                "Analysis of 15,000+ sales records",
+                "89% accuracy in demand forecasting",
+                "Interactive Tableau dashboard with real-time insights",
+                "Optimized inventory strategies to reduce costs"
             ]
         },
         {

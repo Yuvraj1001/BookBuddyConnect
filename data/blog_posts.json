@@ -1,12 +1,12 @@
 [
     {
         "id": 1,
-        "title": "Building Efficient Text Summarization Models with Transformers",
-        "excerpt": "Exploring the latest techniques in natural language processing and how hybrid models can improve text summarization accuracy.",
-        "date": "2024-11-15",
-        "category": "Machine Learning",
-        "tags": ["NLP", "Transformers", "Python", "TensorFlow"],
-        "readTime": "8 min read"
+        "title": "Knitwear Sales Forecasting: Predicting Fashion Trends with Data",
+        "excerpt": "How I analyzed 15,000+ sales records to achieve 89% accuracy in demand forecasting and built an interactive Tableau dashboard for real-time insights.",
+        "date": "2024-11-20",
+        "category": "Data Analytics",
+        "tags": ["Sales Forecasting", "Tableau", "Predictive Analytics", "Customer Analysis"],
+        "readTime": "7 min read"
     },
     {
         "id": 2,

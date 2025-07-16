@@ -3,24 +3,43 @@
 {% block content %}
 <!-- Hero Section -->
 <section id="home" class="min-h-screen flex items-center justify-center pt-16">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <div class="max-w-3xl mx-auto">
-            <h1 class="text-5xl md:text-7xl font-bold text-white mb-6 animate-fade-in">
-                Hi, I'm <span class="text-primary-400">{{ resume.personal.name }}</span>
-            </h1>
-            <p class="text-xl md:text-2xl text-gray-300 mb-8 animate-fade-in-delay">
-                {{ resume.personal.title }}
-            </p>
-            <p class="text-lg text-gray-400 mb-12 max-w-2xl mx-auto animate-fade-in-delay-2">
-                {{ resume.personal.bio }}
-            </p>
-            <div class="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-delay-3">
-                <a href="#contact" class="bg-primary-600 hover:bg-primary-700 text-white px-8 py-3 rounded-lg font-medium transition-colors">
-                    Get In Touch
-                </a>
-                <a href="#projects" class="border border-gray-600 hover:border-primary-400 text-gray-300 hover:text-primary-400 px-8 py-3 rounded-lg font-medium transition-colors">
-                    View My Work
-                </a>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <!-- Profile Image -->
+            <div class="text-center md:text-left animate-fade-in">
+                <div class="relative inline-block">
+                    <img src="{{ url_for('static', filename='images/profile.jpg') }}" 
+                         alt="{{ resume.personal.name }}" 
+                         class="w-80 h-80 object-cover rounded-full mx-auto md:mx-0 shadow-2xl border-4 border-primary-500/30">
+                    <div class="absolute inset-0 rounded-full bg-gradient-to-tr from-primary-500/20 to-transparent"></div>
+                </div>
+            </div>
+            
+            <!-- Hero Content -->
+            <div class="text-center md:text-left">
+                <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 animate-fade-in-delay">
+                    Hi, I'm <span class="text-primary-400">{{ resume.personal.name }}</span>
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-300 mb-6 animate-fade-in-delay-2">
+                    {{ resume.personal.title }}
+                </p>
+                <p class="text-lg text-gray-400 mb-8 animate-fade-in-delay-2">
+                    {{ resume.personal.bio }}
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start animate-fade-in-delay-3">
+                    <a href="#contact" class="bg-primary-600 hover:bg-primary-700 text-white px-8 py-3 rounded-lg font-medium transition-colors">
+                        Get In Touch
+                    </a>
+                    <a href="#projects" class="border border-gray-600 hover:border-primary-400 text-gray-300 hover:text-primary-400 px-8 py-3 rounded-lg font-medium transition-colors">
+                        View My Work
+                    </a>
+                    <a href="{{ url_for('static', filename='downloads/Yuvraj_CV.pdf') }}" 
+                       download="Yuvraj_CV.pdf" 
+                       class="bg-gray-700 hover:bg-gray-600 text-white px-8 py-3 rounded-lg font-medium transition-colors flex items-center justify-center">
+                        <i class="fas fa-download mr-2"></i>
+                        Download CV
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -82,6 +101,16 @@
                             </a>
                         </div>
                     </div>
+                </div>
+                
+                <!-- Download CV Button in About Section -->
+                <div class="mt-6">
+                    <a href="{{ url_for('static', filename='downloads/Yuvraj_CV.pdf') }}" 
+                       download="Yuvraj_CV.pdf" 
+                       class="inline-flex items-center bg-primary-600 hover:bg-primary-700 text-white px-6 py-3 rounded-lg font-medium transition-colors">
+                        <i class="fas fa-download mr-2"></i>
+                        Download Full CV
+                    </a>
                 </div>
             </div>
         </div>
