@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "Building Efficient Text Summarization Models with Transformers",
+        "excerpt": "Exploring the latest techniques in natural language processing and how hybrid models can improve text summarization accuracy.",
+        "date": "2024-11-15",
+        "category": "Machine Learning",
+        "tags": ["NLP", "Transformers", "Python", "TensorFlow"],
+        "readTime": "8 min read"
+    },
+    {
+        "id": 2,
+        "title": "Data Visualization Best Practices for Road Safety Analysis",
+        "excerpt": "How to create compelling dashboards that reveal insights from accident data and help improve road safety measures.",
+        "date": "2024-10-20",
+        "category": "Data Analysis",
+        "tags": ["Excel", "Tableau", "Data Visualization", "Analytics"],
+        "readTime": "6 min read"
+    },
+    {
+        "id": 3,
+        "title": "Competitive Programming: From Beginner to Contest Winner",
+        "excerpt": "My journey in competitive programming and strategies that helped me secure top ranks in coding contests.",
+        "date": "2024-09-25",
+        "category": "Programming",
+        "tags": ["C++", "Algorithms", "Problem Solving", "GeeksforGeeks"],
+        "readTime": "10 min read"
+    },
+    {
+        "id": 4,
+        "title": "Open Source Contribution: Hacktoberfest 2024 Experience",
+        "excerpt": "Lessons learned from contributing to open source projects and building a stronger developer community.",
+        "date": "2024-10-31",
+        "category": "Open Source",
+        "tags": ["GitHub", "Open Source", "Community", "Collaboration"],
+        "readTime": "5 min read"
+    }
+]
