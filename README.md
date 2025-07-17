@@ -1,4 +1,5 @@
-# BookBuddyConnect 📚
+# My Personal Portfolio
+
 
 A personal portfolio website built using **Flask**, showcasing my work, projects, skills, and resume — all in one place!
 
